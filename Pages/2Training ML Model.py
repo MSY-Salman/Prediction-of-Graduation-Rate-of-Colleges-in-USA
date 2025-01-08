@@ -50,7 +50,7 @@ from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis as QDA
 from statsmodels.stats.outliers_influence import variance_inflation_factor as VIF
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-data = pd.read_csv(r"D:\SALMAN\ALL+CSV+FILES+-+2nd+Edition+-+corrected\ALL CSV FILES - 2nd Edition\College.csv")
+data = pd.read_csv(r"College.csv")
 data.rename(columns={'Unnamed: 0': 'Colleges'}, inplace=True)
 
 st.set_page_config(
