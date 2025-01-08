@@ -63,7 +63,7 @@ st.set_page_config(
 )
 @st.cache
 def load_data():
-    data = pd.read_csv(r"D:\SALMAN\ALL+CSV+FILES+-+2nd+Edition+-+corrected\ALL CSV FILES - 2nd Edition\College.csv")
+    data = pd.read_csv("College.csv")
     data['Admission_ratio'] = (data['Enroll'] / data['Apps']) * 100
     data.rename(columns={'Unnamed: 0': 'Colleges'}, inplace=True)
     data['Private'] = data['Private'].map({"Yes": 1, "No": 0})
