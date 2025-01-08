@@ -6,12 +6,7 @@ import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Streamlit page configuration
-st.set_page_config(
-    page_title="Welcome to MSY Insights!",
-    page_icon="📊",
-    layout="wide",
-)
+
 
 # Load and preprocess data
 data = pd.read_csv(r"College.csv")
