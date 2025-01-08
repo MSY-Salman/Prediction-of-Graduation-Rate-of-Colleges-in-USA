@@ -53,11 +53,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 data = pd.read_csv(r"College.csv")
 data.rename(columns={'Unnamed: 0': 'Colleges'}, inplace=True)
 
-st.set_page_config(
-    page_title="Welcome to MSY!",
-    page_icon="📊",
-    layout="wide",
-)
+
 st.title("Prediction of Graduation Rate in College")
 st.write("")
 st.write("")
