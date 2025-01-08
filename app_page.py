@@ -31,7 +31,13 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-#st.sidebar.markdown("Made with ❤️ by [Sven](https://youtube.com/@codingisfun)")
+st.markdown("""
+    <hr>
+    <p style='text-align:center; color:gray; font-size:12px;'>
+    Developed with ❤️ by <b>MSY Technologies</b> | Insights Platform 📊
+    </p>
+""", unsafe_allow_html=True)
+
 
 
 # --- RUN NAVIGATION ---
