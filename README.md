@@ -1,7 +1,7 @@
 # College Data Analysis and Visualization
 
 This is a Streamlit application designed to analyze and visualize data related to colleges in the USA. The dataset contains various attributes for colleges, such as graduation rates, faculty count, student enrollments, and more. The application provides interactive data visualizations to explore these relationships and gain insights into factors affecting graduation rates.
-
+Can be accessed at: https://prediction-of-graduation-rate-of-colleges-in-usa.streamlit.app/
 ## Features:
 - **Graduation Rate Distribution**: Visualizes the distribution of graduation rates across all colleges.
 - **PhD Faculty vs Graduation Rate**: A scatterplot comparing the number of PhD faculty with the graduation rate, split by private and public colleges.
